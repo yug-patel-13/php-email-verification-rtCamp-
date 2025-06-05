@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container for form */
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Form title */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* Style all inputs */
+input[type="email"],
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#rt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style buttons */
+button {
+  width: 100px;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Link style (unsubscribe link) */
+a#unsubscribe-button {
+  display: inline-block;
+  margin-top: 15px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+a#unsubscribe-button:hover {
+  text-decoration: underline;
+}
+
+/* Simple message box */
+.message {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Responsive - smaller padding on small screens */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+    margin: 20px 10px;
+  }
+}
